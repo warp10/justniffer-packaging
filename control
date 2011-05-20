@@ -1,0 +1,18 @@
+Source: justniffer
+Section: net
+Priority: optional
+Maintainer: Flavia Weisghizzi <flavia.weisghizzi@ubuntu.com>
+Uploaders: Andrea Colangelo <warp10@ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50~), autotools-dev, libboost-regex-dev, libboost-program-options-dev, libboost-iostreams-dev, libpcap0.8-dev, python (>= 2.6)
+Standards-Version: 3.9.1
+Homepage: http://justniffer.sourceforge.net/
+
+
+Package: justniffer
+Architecture: any
+Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}
+Description: TCP packet sniffer
+ justniffer is a tcp packet sniffer. It can log network traffic in a 'standard'
+ (web server like) or in a customized way. It can also log response times,
+ useful for tracking network services performances (e.g. web server,
+ application server, etc.) and capture http traffic content.

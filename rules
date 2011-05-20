@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE=1
+
+CFLAGS=-Os
+CXXFLAGS=-Os
+
+%:
+	dh $@ --with python2
+
+override_dh_auto_test:
+	

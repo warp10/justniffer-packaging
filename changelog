@@ -1,0 +1,5 @@
+justniffer (0.5.8-1) unstable; urgency=low
+
+  * Initial release (Closes: #584689) 
+
+ -- Andrea Colangelo <warp10@ubuntu.com>  Thu, 23 Sep 2010 15:38:40 +0200
